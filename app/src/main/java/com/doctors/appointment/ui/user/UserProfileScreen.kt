@@ -7,7 +7,7 @@ import androidx.compose.runtime.Composable
 import androidx.lifecycle.viewmodel.compose.viewModel
 
 @Composable
-fun UserProfileScreen(viewModel: UserViewModel) {
+fun UserProfileScreen(viewModel: UserViewModel = viewModel()) {
     val user = viewModel.userData.value
 
     user?.let {
