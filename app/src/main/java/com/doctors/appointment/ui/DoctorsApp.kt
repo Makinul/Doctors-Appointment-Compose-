@@ -37,7 +37,6 @@ fun DoctorsApp(
     }
 }
 
-
 @Composable
 fun ReplyAppContent(
     modifier: Modifier = Modifier,
